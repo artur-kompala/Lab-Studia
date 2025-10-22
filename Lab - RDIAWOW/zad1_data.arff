@@ -1,0 +1,13 @@
+@RELATION dynamic_data
+
+@ATTRIBUTE coca_cola {1, 0}
+@ATTRIBUTE piwo {1, 0}
+@ATTRIBUTE orzeszki {1, 0}
+@ATTRIBUTE pieluszki {1, 0}
+
+@DATA
+1,0,1,0
+0,1,1,1
+1,0,0,0
+1,1,1,0
+0,1,1,1

@@ -1,0 +1,30 @@
+
+# Dane umieszczamy w osobnym pliku:
+
+# Wart. odżywcze
+set NUTR := A B1 B2 C ;
+
+# Rodzaje produktów
+set FOOD := BEEF CHK TUR ;
+
+# Koszt
+param:     cost  :=
+    BEEF   3.19
+    CHK    2.59
+    TUR    2.49  ;
+
+# Zapotrzebowanie min i maks na wart. odżywcze
+param:  n_min   n_max :=
+    A       700     10000
+    C       700     10000
+    B1      700     10000
+    B2      700     10000 ;
+
+# Ile jest witamin w każdym produkcie
+# (tr) oznacza transpozycję tablicy amt
+param amt (tr):
+            A   C   B1   B2  :=
+    BEEF   60  20   10   15
+    CHK     8   0   20   20
+    TUR    60  20   15   10 ;
+
