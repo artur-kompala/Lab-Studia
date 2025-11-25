@@ -1,0 +1,139 @@
+TABLE WATER_POTABILITY_0.3
+ATTRIBUTES 10
+ ph symbolic
+ Hardness symbolic
+ Solids symbolic
+ Chloramines symbolic
+ Sulfate symbolic
+ Conductivity symbolic
+ Organic_carbon symbolic
+ Trihalomethanes symbolic
+ Turbidity symbolic
+ Potability symbolic
+OBJECTS 126
+ range2 range2 range1 range2 range2 range2 range1 range2 range1 0 
+ range2 range2 range1 range2 range2 range1 range2 range2 range2 0 
+ range2 range1 range1 range1 range2 range1 range1 range1 range1 0 
+ range2 range2 range1 range1 range1 range2 range1 range2 range2 0 
+ range2 range2 range1 range2 range2 range2 range2 range2 range2 0 
+ range2 range1 range1 range1 range1 range1 range2 range2 range1 0 
+ range2 range2 range2 range2 range2 range1 range2 range1 range2 0 
+ range2 range2 range1 range2 range2 range2 range1 range2 range2 0 
+ range2 range2 range1 range1 range2 range1 range1 range2 range1 0 
+ range1 range1 range1 range2 range2 range2 range1 range1 range2 0 
+ range2 range1 range1 range2 range2 range1 range1 range2 range2 0 
+ range2 range2 range1 range2 range2 range1 range1 range2 range2 0 
+ range1 range2 range2 range2 range2 range2 range2 range2 range2 0 
+ range2 range1 range1 range1 range2 range1 range1 range2 range1 0 
+ range2 range2 range1 range1 range2 range1 range1 range1 range1 0 
+ range2 range1 range1 range2 range1 range1 range2 range2 range1 0 
+ range2 range1 range1 range1 range1 range2 range1 range2 range1 0 
+ range1 range2 range2 range2 range2 range1 range1 range2 range1 0 
+ range2 range1 range1 range2 range2 range2 range1 range2 range2 0 
+ range1 range1 range2 range2 range1 range2 range1 range1 range2 0 
+ range1 range1 range1 range2 range1 range2 range1 range1 range2 0 
+ range1 range1 range2 range1 range2 range2 range1 range1 range1 0 
+ range1 range1 range1 range1 range2 range2 range2 range1 range1 0 
+ range1 range2 range1 range2 range2 range1 range1 range2 range1 0 
+ range2 range2 range1 range1 range2 range2 range1 range1 range1 0 
+ range1 range2 range1 range1 range1 range2 range1 range1 range1 0 
+ range2 range2 range2 range2 range2 range1 range1 range2 range2 0 
+ range1 range1 range1 range1 range1 range1 range2 range2 range1 0 
+ range2 range1 range1 range1 range2 range2 range1 range2 range1 0 
+ range1 range2 range1 range1 range2 range1 range2 range1 range1 0 
+ range1 range2 range1 range1 range2 range2 range1 range1 range1 0 
+ range1 range1 range1 range1 range1 range1 range1 range2 range2 0 
+ range1 range2 range2 range2 range2 range1 range1 range2 range2 0 
+ range1 range2 range1 range2 range2 range1 range2 range1 range1 0 
+ range1 range2 range1 range1 range2 range1 range1 range1 range2 0 
+ range2 range1 range1 range1 range2 range1 range2 range2 range1 0 
+ range1 range2 range1 range2 range2 range2 range2 range2 range1 0 
+ range1 range1 range1 range1 range2 range2 range2 range2 range2 0 
+ range1 range2 range1 range1 range2 range1 range2 range2 range1 0 
+ range1 range2 range1 range1 range1 range2 range1 range2 range2 0 
+ range2 range1 range1 range2 range2 range2 range1 range2 range1 1 
+ range2 range1 range1 range2 range1 range1 range1 range2 range1 1 
+ range1 range2 range1 range2 range1 range2 range2 range2 range2 1 
+ range1 range2 range1 range2 range1 range2 range1 range2 range2 1 
+ range2 range1 range1 range1 range2 range2 range1 range1 range1 1 
+ range2 range1 range2 range2 range2 range1 range2 range2 range2 1 
+ range2 range1 range2 range2 range2 range2 range2 range1 range2 1 
+ range1 range2 range2 range2 range1 range2 range1 range2 range2 1 
+ range2 range1 range1 range2 range1 range2 range1 range2 range2 1 
+ range1 range2 range1 range1 range2 range2 range1 range2 range1 1 
+ range2 range2 range1 range2 range1 range2 range1 range2 range1 1 
+ range2 range1 range1 range1 range2 range1 range1 range2 range2 1 
+ range1 range2 range2 range1 range2 range1 range1 range2 range2 1 
+ range1 range2 range1 range1 range2 range1 range2 range2 range2 1 
+ range2 range2 range2 range2 range1 range2 range1 range1 range2 1 
+ range1 range1 range2 range1 range2 range1 range2 range1 range2 1 
+ range2 range2 range2 range2 range1 range1 range1 range2 range2 1 
+ range2 range2 range2 range2 range1 range2 range1 range2 range1 1 
+ range1 range2 range2 range2 range2 range1 range2 range2 range1 1 
+ range1 range2 range2 range1 range2 range1 range1 range1 range2 1 
+ range1 range2 range1 range2 range1 range1 range1 range1 range2 1 
+ range1 range2 range1 range2 range1 range2 range2 range1 range1 1 
+ range1 range2 range1 range1 range2 range1 range2 range1 range2 1 
+ range1 range1 range1 range2 range2 range1 range1 range2 range2 0 
+ range1 range2 range1 range2 range2 range2 range2 range1 range1 0 
+ range1 range2 range1 range2 range1 range1 range2 range1 range2 0 
+ range2 range1 range1 range2 range2 range2 range2 range2 range1 0 
+ range2 range1 range1 range1 range2 range1 range2 range2 range2 0 
+ range1 range2 range1 range2 range2 range2 range1 range2 range2 0 
+ range1 range2 range1 range1 range2 range2 range2 range1 range2 0 
+ range2 range2 range2 range1 range2 range1 range1 range2 range1 0 
+ range1 range2 range1 range1 range1 range1 range2 range1 range1 1 
+ range1 range1 range2 range2 range2 range2 range1 range2 range2 1 
+ range1 range2 range1 range1 range1 range2 range2 range2 range2 1 
+ range2 range1 range2 range2 range2 range2 range1 range2 range1 1 
+ range1 range2 range1 range2 range1 range1 range1 range1 range1 1 
+ range1 range1 range1 range1 range2 range1 range1 range2 range1 1 
+ range2 range1 range2 range1 range2 range2 range1 range1 range1 1 
+ range2 range2 range1 range2 range1 range1 range2 range1 range2 1 
+ range2 range2 range1 range1 range1 range1 range1 range2 range2 1 
+ range1 range1 range2 range1 range2 range2 range2 range1 range1 1 
+ range2 range2 range1 range2 range1 range2 range2 range2 range1 0 
+ range2 range1 range1 range1 range2 range1 range2 range1 range2 0 
+ range2 range2 range1 range1 range1 range2 range2 range2 range1 0 
+ range2 range2 range2 range2 range2 range2 range1 range2 range2 0 
+ range2 range1 range2 range1 range1 range1 range2 range2 range2 1 
+ range1 range2 range2 range1 range1 range2 range1 range2 range1 1 
+ range1 range1 range2 range1 range1 range2 range2 range2 range2 1 
+ range2 range1 range2 range1 range2 range1 range2 range1 range1 1 
+ range1 range1 range1 range1 range1 range2 range2 range2 range1 1 
+ range2 range2 range2 range1 range1 range1 range1 range1 range1 0 
+ range2 range2 range2 range2 range2 range2 range2 range2 range2 0 
+ range1 range2 range2 range1 range2 range1 range2 range2 range2 0 
+ range1 range2 range2 range1 range1 range2 range2 range2 range2 0 
+ range2 range2 range2 range2 range1 range1 range1 range1 range2 0 
+ range1 range2 range2 range1 range1 range1 range1 range2 range2 0 
+ range1 range1 range1 range1 range1 range2 range1 range1 range1 0 
+ range1 range2 range2 range2 range1 range2 range2 range2 range2 0 
+ range2 range2 range2 range2 range2 range1 range2 range2 range2 0 
+ range2 range2 range2 range1 range1 range2 range1 range2 range2 0 
+ range2 range2 range2 range2 range1 range2 range2 range2 range1 0 
+ range2 range1 range2 range1 range1 range1 range1 range1 range1 1 
+ range2 range2 range2 range1 range2 range1 range1 range2 range2 1 
+ range1 range1 range2 range1 range1 range2 range1 range2 range2 1 
+ range2 range1 range2 range1 range1 range1 range1 range1 range2 1 
+ range2 range1 range2 range2 range2 range2 range1 range2 range2 0 
+ range1 range1 range2 range2 range2 range1 range1 range2 range2 0 
+ range2 range1 range2 range1 range2 range1 range1 range2 range2 0 
+ range1 range1 range2 range1 range2 range1 range2 range2 range2 0 
+ range1 range1 range1 range1 range1 range1 range1 range1 range1 0 
+ range2 range1 range1 range1 range1 range1 range1 range1 range1 1 
+ range2 range2 range1 range1 range1 range2 range2 range1 range1 0 
+ range2 range2 range2 range1 range2 range2 range1 range2 range1 0 
+ range2 range2 range1 range1 range1 range2 range1 range1 range2 1 
+ range1 range1 range2 range2 range2 range2 range2 range2 range2 0 
+ range1 range1 range1 range2 range1 range2 range2 range1 range1 0 
+ range1 range1 range2 range2 range1 range1 range1 range1 range2 0 
+ range2 range2 range2 range1 range1 range1 range2 range2 range1 1 
+ range2 range2 range1 range1 range1 range2 range2 range1 range2 1 
+ range2 range2 range2 range2 range1 range2 range2 range1 range1 1 
+ range1 range2 range2 range2 range1 range1 range2 range1 range1 0 
+ range2 range1 range2 range2 range1 range1 range1 range2 range1 1 
+ range2 range1 range2 range2 range1 range1 range1 range1 range2 1 
+ range1 range2 range2 range1 range2 range2 range1 range2 range2 1 
+ range2 range1 range2 range2 range1 range1 range2 range1 range2 1 
+ range2 range1 range2 range2 range2 range2 range2 range2 range2 1 
