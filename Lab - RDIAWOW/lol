@@ -1,0 +1,83 @@
+RULE_SET
+ATTRIBUTES 19
+ Potability symbolic
+ ph_range1 numeric 0
+ ph_range2 numeric 0
+ Hardness_range1 numeric 0
+ Hardness_range2 numeric 0
+ Solids_range1 numeric 0
+ Solids_range2 numeric 0
+ Chloramines_range1 numeric 0
+ Chloramines_range2 numeric 0
+ Sulfate_range1 numeric 0
+ Sulfate_range2 numeric 0
+ Conductivity_range1 numeric 0
+ Conductivity_range2 numeric 0
+ Organic_carbon_range1 numeric 0
+ Organic_carbon_range2 numeric 0
+ Trihalomethanes_range1 numeric 0
+ Trihalomethanes_range2 numeric 0
+ Turbidity_range1 numeric 0
+ Turbidity_range2 numeric 0
+DECISION_VALUES 2
+0
+1
+RULES 57
+RULE_SET
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=1)&(Organic_carbon_range2=1)&(Turbidity_range2=1)=>(dec={0[7]}) 7
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=1)&(Organic_carbon_range2=1)&(Turbidity_range2=0)=>(dec={0[3],1[2]}) 5
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=1)&(Organic_carbon_range2=0)&(Turbidity_range2=1)=>(dec={0[2],1[3]}) 5
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=1)&(Organic_carbon_range2=0)&(Turbidity_range2=0)=>(dec={0[3],1[1]}) 4
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=0)&(Conductivity_range1=1)&(Organic_carbon_range2=1)=>(dec={0[4],1[2]}) 6
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=0)&(Conductivity_range1=1)&(Organic_carbon_range2=0)=>(dec={0[3]}) 3
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=0)&(Conductivity_range1=0)&(Trihalomethanes_range2=1)=>(dec={0[4]}) 4
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=1)&(Chloramines_range2=0)&(Conductivity_range1=0)&(Trihalomethanes_range2=0)=>(dec={0[4],1[1]}) 5
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=1)&(Organic_carbon_range1=1)=>(dec={0[5]}) 5
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=1)&(Organic_carbon_range1=0)&(Chloramines_range1=1)=>(dec={0[1],1[3]}) 4
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=1)&(Organic_carbon_range1=0)&(Chloramines_range1=0)=>(dec={0[2],1[2]}) 4
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=0)&(Chloramines_range1=1)&(Turbidity_range1=1)=>(dec={0[2],1[4]}) 6
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=0)&(Chloramines_range1=1)&(Turbidity_range1=0)=>(dec={0[1],1[6]}) 7
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=0)&(Chloramines_range1=0)&(Organic_carbon_range1=1)=>(dec={1[2]}) 2
+(Solids_range1=1)&(Hardness_range1=1)&(Sulfate_range1=0)&(ph_range2=0)&(Chloramines_range1=0)&(Organic_carbon_range1=0)=>(dec={0[2]}) 2
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=1)&(Chloramines_range2=1)&(Sulfate_range1=1)=>(dec={0[3],1[3]}) 6
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=1)&(Chloramines_range2=1)&(Sulfate_range1=0)=>(dec={1[1]}) 1
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=1)&(Chloramines_range2=0)&(Conductivity_range2=1)=>(dec={0[4]}) 4
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=1)&(Chloramines_range2=0)&(Conductivity_range2=0)=>(dec={0[2],1[1]}) 3
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=0)&(Conductivity_range1=1)&(Organic_carbon_range2=1)=>(dec={0[1],1[1]}) 2
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=0)&(Conductivity_range1=1)&(Organic_carbon_range2=0)=>(dec={0[2],1[1]}) 3
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=1)&(Turbidity_range1=0)&(Conductivity_range1=0)=>(dec={1[7]}) 7
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=1)&(Turbidity_range1=1)&(Trihalomethanes_range2=1)=>(dec={0[2],1[1]}) 3
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=1)&(Turbidity_range1=1)&(Trihalomethanes_range2=0)=>(dec={0[1],1[4]}) 5
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=1)&(Turbidity_range1=0)&(Conductivity_range1=1)=>(dec={1[3]}) 3
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=1)&(Turbidity_range1=0)&(Conductivity_range1=0)=>(dec={0[2],1[5]}) 7
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=0)&(Turbidity_range1=1)=>(dec={1[11]}) 11
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=0)&(Turbidity_range1=0)&(Sulfate_range2=1)=>(dec={1[4]}) 4
+(Solids_range1=1)&(Hardness_range1=0)&(ph_range2=0)&(Organic_carbon_range2=0)&(Turbidity_range1=0)&(Sulfate_range2=0)=>(dec={0[2]}) 2
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=1)&(Hardness_range2=1)&(Chloramines_range2=1)=>(dec={0[4],1[3]}) 7
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=1)&(Hardness_range2=1)&(Chloramines_range2=0)=>(dec={0[7]}) 7
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=1)&(Hardness_range2=0)&(Chloramines_range2=1)=>(dec={0[3],1[2]}) 5
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=1)&(Hardness_range2=0)&(Chloramines_range2=0)=>(dec={0[1],1[4]}) 5
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=0)&(Trihalomethanes_range1=1)&(Turbidity_range2=1)=>(dec={0[2],1[2]}) 4
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=0)&(Trihalomethanes_range1=1)&(Turbidity_range2=0)=>(dec={0[3],1[1]}) 4
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=0)&(Trihalomethanes_range1=0)&(Hardness_range2=1)=>(dec={1[6]}) 6
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=1)&(ph_range2=0)&(Trihalomethanes_range1=0)&(Hardness_range2=0)=>(dec={0[2],1[3]}) 5
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=1)&(Hardness_range1=1)&(ph_range2=1)=>(dec={0[1],1[5]}) 6
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=1)&(Hardness_range1=1)&(ph_range2=0)=>(dec={0[3],1[3]}) 6
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=1)&(Hardness_range1=0)&(Chloramines_range2=1)=>(dec={0[5]}) 5
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=1)&(Hardness_range1=0)&(Chloramines_range2=0)=>(dec={0[3],1[1]}) 4
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=0)&(Chloramines_range2=1)&(Hardness_range2=1)=>(dec={0[3],1[5]}) 8
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=0)&(Chloramines_range2=1)&(Hardness_range2=0)=>(dec={0[5]}) 5
+(Solids_range1=0)&(Organic_carbon_range2=1)&(Conductivity_range1=0)&(Sulfate_range2=0)&(Chloramines_range2=0)=>(dec={0[10]}) 10
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=1)&(Conductivity_range1=1)&(Turbidity_range2=1)=>(dec={0[3],1[2]}) 5
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=1)&(Conductivity_range1=1)&(Turbidity_range2=0)=>(dec={1[1]}) 1
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=1)&(Conductivity_range1=0)=>(dec={0[8]}) 8
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=0)&(Turbidity_range1=1)&(Conductivity_range1=1)=>(dec={0[3],1[3]}) 6
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=0)&(Turbidity_range1=1)&(Conductivity_range1=0)=>(dec={0[6],1[1]}) 7
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=0)&(Turbidity_range1=0)&(Chloramines_range2=1)=>(dec={0[2],1[1]}) 3
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=1)&(Hardness_range2=0)&(Turbidity_range1=0)&(Chloramines_range2=0)=>(dec={1[4]}) 4
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=0)&(Chloramines_range2=1)&(Conductivity_range1=1)&(ph_range2=1)=>(dec={0[5],1[2]}) 7
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=0)&(Chloramines_range2=1)&(Conductivity_range1=1)&(ph_range2=0)=>(dec={0[1],1[3]}) 4
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=0)&(Chloramines_range2=1)&(Conductivity_range1=0)&(Hardness_range2=1)=>(dec={0[6]}) 6
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=0)&(Chloramines_range2=1)&(Conductivity_range1=0)&(Hardness_range2=0)=>(dec={0[3],1[1]}) 4
+(Solids_range1=0)&(Organic_carbon_range2=0)&(Sulfate_range2=0)&(Chloramines_range2=0)=>(dec={0[21]}) 21
+
