@@ -1,24 +1,24 @@
 TABLE nowy
 ATTRIBUTES 19
 Potability symbolic
-ph_range1 numeric 0
-ph_range2 numeric 0
-Hardness_range1 numeric 0
-Hardness_range2 numeric 0
-Solids_range1 numeric 0
-Solids_range2 numeric 0
-Chloramines_range1 numeric 0
-Chloramines_range2 numeric 0
-Sulfate_range1 numeric 0
-Sulfate_range2 numeric 0
-Conductivity_range1 numeric 0
-Conductivity_range2 numeric 0
-Organic_carbon_range1 numeric 0
-Organic_carbon_range2 numeric 0
-Trihalomethanes_range1 numeric 0
-Trihalomethanes_range2 numeric 0
-Turbidity_range1 numeric 0
-Turbidity_range2 numeric 0
+ph_range1 symbolic
+ph_range2 symbolic
+Hardness_range1 symbolic
+Hardness_range2 symbolic
+Solids_range1 symbolic
+Solids_range2 symbolic
+Chloramines_range1 symbolic
+Chloramines_range2 symbolic
+Sulfate_range1 symbolic
+Sulfate_range2 symbolic
+Conductivity_range1 symbolic
+Conductivity_range2 symbolic
+Organic_carbon_range1 symbolic
+Organic_carbon_range2 symbolic
+Trihalomethanes_range1 symbolic
+Trihalomethanes_range2 symbolic
+Turbidity_range1 symbolic
+Turbidity_range2 symbolic
 OBJECTS 419
 0 0 1 0 1 1 0 0 1 0 1 0 1 1 0 0 1 1 0
 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 1 0 0 1
